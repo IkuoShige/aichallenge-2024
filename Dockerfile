@@ -7,6 +7,7 @@ RUN apt-get -y install iproute2
 RUN apt-get -y install wmctrl
 RUN apt-get -y install ros-humble-rqt-tf-tree
 RUN apt-get -y install ros-humble-rqt-graph
+RUN apt-get -y install tmux
 
 # PATH="$PATH:/root/.local/bin"
 # PATH="/usr/local/cuda/bin:$PATH"

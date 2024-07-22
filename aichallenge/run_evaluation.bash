@@ -1,5 +1,5 @@
 #!/bin/bash
-#AWSIM_DIRECTORY=/aichallenge/simulator/AWSIM
+#AWSIM_DIRECTORY=/aichallenge/simulator/AWSIM_CPU_**
 AWSIM_DIRECTORY=/aichallenge/simulator/AWSIM_GPU_**
 
 # Move working directory

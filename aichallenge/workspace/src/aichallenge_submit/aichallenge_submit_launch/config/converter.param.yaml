@@ -4,13 +4,13 @@
     use_steer_fb: true
     is_debugging: false
     steer_pid:
-      kp: 200.0
+      kp: 350.0
       ki: 15.0
       kd: 0.0
-      max: 8.0
-      min: -8.0
-      max_p: 8.0
-      min_p: -8.0
+      max: 14.0
+      min: -14.0
+      max_p: 14.0
+      min_p: -14.0
       max_i: 8.0
       min_i: -8.0
       max_d: 0.0

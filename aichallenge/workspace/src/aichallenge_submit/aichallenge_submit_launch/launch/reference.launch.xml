@@ -9,7 +9,9 @@
   <arg name="sensor_model" default="racing_kart_sensor_kit" description="sensor model name"/>
   <!-- Optional parameters -->
   <!-- Map -->
-  <arg name="lanelet2_map_file" default="lanelet2_map.osm" description="lanelet2 map file name"/>
+  <!-- <arg name="lanelet2_map_file" default="lanelet2_map.osm" description="lanelet2 map file name"/> -->
+  <arg name="lanelet2_map_file" default="lanelet2_map_1012.osm" description="lanelet2 map file name"/>
+  <!-- <arg name="lanelet2_map_file" default="lanelet2_map_new.osm" description="lanelet2 map file name"/> -->
   <arg name="pointcloud_map_file" default="pointcloud_map.pcd" description="pointcloud map file name"/>
 
   <!-- Vehicle -->
@@ -214,8 +216,8 @@
   <node pkg="simple_pure_pursuit" exec="simple_pure_pursuit" name="simple_pure_pursuit_node" output="screen">
     <param name="use_external_target_vel" value="true"/>
     <param name="external_target_vel" value="4.16667"/>
-    <param name="lookahead_gain" value="0.5"/>
-    <param name="lookahead_min_distance" value="3.5"/>
+    <param name="lookahead_gain" value="0.68"/>
+    <param name="lookahead_min_distance" value="2.7"/>
     <param name="speed_proportional_gain" value="1.0"/>
     <param name="steering_tire_angle_gain" value="$(var steering_tire_angle_gain_var)"/>
 
